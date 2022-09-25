@@ -1,0 +1,21 @@
+.counter{
+    text-align: center;
+    margin-top:5rem;
+}
+
+.zero{
+    text-align: center;
+    margin-top:15px;
+    font-size: 5rem;
+}
+
+.btn{
+    width: 2rem;
+    background-color: red;
+    color: white;
+    border:none;
+    height:1.5rem;
+    border-radius: 3px;
+
+}
+

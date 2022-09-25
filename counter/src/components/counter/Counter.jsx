@@ -1,9 +1,17 @@
-
+import './Counter.css';
+import {useState} from 'react';
 
 const Counter = () => {
+    const [counter, setCounter] = useState(0)
     return( 
         <div>
-         <h1>App</h1>
+         <div className="counter">
+
+         <button className="btn">-</button>
+         <button className="btn-r">reset</button>
+         <button className="btn">+</button>
+         </div>
+         <div className="zero">{counter}</div>
         </div>
     )
 }
